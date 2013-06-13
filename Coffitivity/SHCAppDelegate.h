@@ -16,6 +16,8 @@
     NSMenuItem *menuItem;
     __weak NSSlider *_slider;
 }
+@property (weak) IBOutlet NSMenu *rightClickMenu;
+@property (weak) IBOutlet NSMenuItem *rightClickMenuItem;
 
 @property AVAudioPlayer* audioPlayer;
 @property (weak) IBOutlet NSSlider *slider;

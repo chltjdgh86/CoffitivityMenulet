@@ -17,6 +17,10 @@
 		A724BC8917691BF500C7EE9F /* cleanupcut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A724BC8817691BF500C7EE9F /* cleanupcut.mp3 */; };
 		A724BC8C1769312600C7EE9F /* logo-signup_small.png in Resources */ = {isa = PBXBuildFile; fileRef = A724BC8A1769312600C7EE9F /* logo-signup_small.png */; };
 		A724BC8D1769312600C7EE9F /* logo-signup.png in Resources */ = {isa = PBXBuildFile; fileRef = A724BC8B1769312600C7EE9F /* logo-signup.png */; };
+		A724BC8F1769382900C7EE9F /* logo-signup.png in Resources */ = {isa = PBXBuildFile; fileRef = A724BC8E1769382900C7EE9F /* logo-signup.png */; };
+		A724BC911769388800C7EE9F /* logo-signup_small.png in Resources */ = {isa = PBXBuildFile; fileRef = A724BC901769388800C7EE9F /* logo-signup_small.png */; };
+		A724BC941769451200C7EE9F /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A724BC931769451200C7EE9F /* StatusView.m */; };
+		A775B3B317696E100088CB00 /* coffitivity.iconset in Resources */ = {isa = PBXBuildFile; fileRef = A775B3B217696E100088CB00 /* coffitivity.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		A724BC8817691BF500C7EE9F /* cleanupcut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cleanupcut.mp3; path = Coffitivity/cleanupcut.mp3; sourceTree = "<group>"; };
 		A724BC8A1769312600C7EE9F /* logo-signup_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-signup_small.png"; sourceTree = "<group>"; };
 		A724BC8B1769312600C7EE9F /* logo-signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-signup.png"; sourceTree = "<group>"; };
+		A724BC8E1769382900C7EE9F /* logo-signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-signup.png"; sourceTree = "<group>"; };
+		A724BC901769388800C7EE9F /* logo-signup_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-signup_small.png"; sourceTree = "<group>"; };
+		A724BC921769451200C7EE9F /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		A724BC931769451200C7EE9F /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		A775B3B217696E100088CB00 /* coffitivity.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = coffitivity.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +64,13 @@
 		A724BC5D1769172100C7EE9F = {
 			isa = PBXGroup;
 			children = (
+				A724BC901769388800C7EE9F /* logo-signup_small.png */,
+				A724BC8E1769382900C7EE9F /* logo-signup.png */,
 				A724BC861769176D00C7EE9F /* AVFoundation.framework */,
 				A724BC6F1769172100C7EE9F /* Coffitivity */,
 				A724BC681769172100C7EE9F /* Frameworks */,
 				A724BC671769172100C7EE9F /* Products */,
+				A775B3B217696E100088CB00 /* coffitivity.iconset */,
 				A724BC8817691BF500C7EE9F /* cleanupcut.mp3 */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +108,8 @@
 				A724BC7B1769172100C7EE9F /* SHCAppDelegate.h */,
 				A724BC7C1769172100C7EE9F /* SHCAppDelegate.m */,
 				A724BC7E1769172100C7EE9F /* MainMenu.xib */,
+				A724BC921769451200C7EE9F /* StatusView.h */,
+				A724BC931769451200C7EE9F /* StatusView.m */,
 				A724BC8A1769312600C7EE9F /* logo-signup_small.png */,
 				A724BC8B1769312600C7EE9F /* logo-signup.png */,
 				A724BC701769172100C7EE9F /* Supporting Files */,
@@ -173,6 +187,9 @@
 				A724BC8917691BF500C7EE9F /* cleanupcut.mp3 in Resources */,
 				A724BC8C1769312600C7EE9F /* logo-signup_small.png in Resources */,
 				A724BC8D1769312600C7EE9F /* logo-signup.png in Resources */,
+				A724BC8F1769382900C7EE9F /* logo-signup.png in Resources */,
+				A724BC911769388800C7EE9F /* logo-signup_small.png in Resources */,
+				A775B3B317696E100088CB00 /* coffitivity.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +202,7 @@
 			files = (
 				A724BC761769172100C7EE9F /* main.m in Sources */,
 				A724BC7D1769172100C7EE9F /* SHCAppDelegate.m in Sources */,
+				A724BC941769451200C7EE9F /* StatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +338,7 @@
 				A724BC851769172100C7EE9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

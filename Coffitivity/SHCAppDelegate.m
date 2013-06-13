@@ -29,6 +29,7 @@
     self.audioPlayer = [[AVAudioPlayer alloc] initWithData:file error:nil];
     [self.audioPlayer prepareToPlay];
     self.audioPlayer.volume = 0.2;
+    self.audioPlayer.numberOfLoops = -1;
     [self.audioPlayer play];
 }
 
