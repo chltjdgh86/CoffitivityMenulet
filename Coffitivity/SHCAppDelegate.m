@@ -20,7 +20,7 @@
     [menuItem setView:_slider];
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
-    NSString* imagePath = [[NSBundle mainBundle] pathForResource:@"logo-signup_small" ofType:@"png"];
+    NSString* imagePath = [[NSBundle mainBundle] pathForResource:@"coffitivity" ofType:@"png"];
     NSImage* logo = [[NSImage alloc] initWithContentsOfFile:imagePath];
     [statusItem setImage:logo];
     [statusItem setHighlightMode:YES];
@@ -28,7 +28,7 @@
     NSData *file = [[NSData alloc] initWithContentsOfFile:filePath];
     self.audioPlayer = [[AVAudioPlayer alloc] initWithData:file error:nil];
     [self.audioPlayer prepareToPlay];
-    self.audioPlayer.volume = 0.2;
+    self.audioPlayer.volume = self.slider.doubleValue;
     self.audioPlayer.numberOfLoops = -1;
     [self.audioPlayer play];
 }

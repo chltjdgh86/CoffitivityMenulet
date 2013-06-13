@@ -92,9 +92,9 @@
 					<string key="NSContents"/>
 					<string key="NSCellIdentifier">_NS:9</string>
 					<reference key="NSControlView" ref="48569520"/>
-					<double key="NSMaxValue">0.40000000000000002</double>
+					<double key="NSMaxValue">0.040000000000000001</double>
 					<double key="NSMinValue">0.0</double>
-					<double key="NSValue">0.19255208333333329</double>
+					<double key="NSValue">0.01</double>
 					<double key="NSAltIncValue">0.0</double>
 					<int key="NSNumberOfTickMarks">0</int>
 					<int key="NSTickMarkPosition">0</int>
