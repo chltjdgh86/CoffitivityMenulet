@@ -18,14 +18,17 @@
     menuItem = [[NSMenuItem alloc] init];
     [statusMenu addItem:menuItem];
     [menuItem setView:_slider];
+    
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
     NSString* imagePath = [[NSBundle mainBundle] pathForResource:@"coffitivity" ofType:@"png"];
     NSImage* logo = [[NSImage alloc] initWithContentsOfFile:imagePath];
     [statusItem setImage:logo];
     [statusItem setHighlightMode:YES];
+    
     NSString* filePath = [[NSBundle mainBundle] pathForResource:@"cleanupcut" ofType:@"mp3"];
     NSData *file = [[NSData alloc] initWithContentsOfFile:filePath];
+    
     self.audioPlayer = [[AVAudioPlayer alloc] initWithData:file error:nil];
     [self.audioPlayer prepareToPlay];
     self.audioPlayer.volume = self.slider.doubleValue;

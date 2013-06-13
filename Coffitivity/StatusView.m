@@ -17,6 +17,7 @@
         [NSApp sendAction:self.action to:self.target from:self];
     }
 }
+//doesn't work
 - (void)rightMouseUp:(NSEvent *)event {
     [NSApp sendAction:self.rightAction to:self.target from:self];
 }
