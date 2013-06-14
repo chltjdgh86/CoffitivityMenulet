@@ -9,12 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 @interface StatusView : NSControl
-{
-    NSImage *image;
-    id target;
-    SEL action, rightAction;
-}
 @property (retain) NSImage *image;
+@property (retain) NSImage *alternateImage;
 @property (assign) id target;
 @property (assign) SEL action, rightAction;
+@property (assign) BOOL clicked;
+
+
+- (void)setHighlightState:(BOOL)state;
+
 @end
