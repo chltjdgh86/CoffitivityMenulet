@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.SystemVersion">12E55</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.AppKitVersion">1187.39</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -83,7 +83,6 @@
 				<string key="NSFrameSize">{25, 101}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<bool key="NSEnabled">YES</bool>
 				<object class="NSSliderCell" key="NSCell" id="128739494">
@@ -92,9 +91,9 @@
 					<string key="NSContents"/>
 					<string key="NSCellIdentifier">_NS:9</string>
 					<reference key="NSControlView" ref="48569520"/>
-					<double key="NSMaxValue">0.040000000000000001</double>
+					<double key="NSMaxValue">1</double>
 					<double key="NSMinValue">0.0</double>
-					<double key="NSValue">0.01</double>
+					<double key="NSValue">0.10000000000000001</double>
 					<double key="NSAltIncValue">0.0</double>
 					<int key="NSNumberOfTickMarks">0</int>
 					<int key="NSTickMarkPosition">0</int>
@@ -287,17 +286,6 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">SHCAppDelegate</string>
 					<string key="superclassName">NSObject</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">volumeChanged:</string>
-						<string key="NS.object.0">NSSlider</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">volumeChanged:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">volumeChanged:</string>
-							<string key="candidateClassName">NSSlider</string>
-						</object>
-					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="rightClickMenu">NSMenu</string>
 						<string key="rightClickMenuItem">NSMenuItem</string>
