@@ -25,8 +25,8 @@
 //    [statusItem setMenu:statusMenu];
     
     self.statusView = [[StatusView alloc] init];
-    self.statusView.image = [NSImage imageNamed:@"coffitivity.png"];
-    self.statusView.alternateImage = [NSImage imageNamed:@"coffitivity.png"];
+    self.statusView.image = [NSImage imageNamed:@"MenuletIcon"];
+    self.statusView.alternateImage = [NSImage imageNamed:@"MenuletIcon"];
     self.statusView.target = self;
     self.statusView.action = @selector(mainAction);
     self.statusView.rightAction = @selector(showMenu);
